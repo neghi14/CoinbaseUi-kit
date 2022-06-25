@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sell-action {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sell-action ul {
+    display: none;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 100px;
+    border: 0.5px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.sell-action ul li {
+    list-style: none;
+    width: 130px;
+    padding: 5px;
+}
+
+.sell-action ul li:hover {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    color: #fff;
+}
+
+.sell-action ul li a {
+    font-weight: 400;
+}
+
+.sell-action ul li a:hover {
+    color: #fff;
+}
+
+.sell-action a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.login-btn {
+    padding: 17px 56px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 100px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+    position: relative;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 140px 200px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+}
+
+
+.get-btn {
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    width: 157px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.get-btn a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.custom-shape-divider-bottom-1656103739 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656103739 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 104px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1656103739 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.welcome {
+    padding: 70px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.welcome-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.welcome-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.btn-discover {
+    border: none;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 100px;
+    width: 157px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.btn-discover a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.rates {
+    position: relative;
+    padding: 150px 150px;
+    background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+
+}
+
+.custom-shape-divider-top-1656144304 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1656144304 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 141px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1656144304 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.great-xp {
+    display: flex;
+    padding: 70px 170px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.great-xp div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.great-xp-header h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.great-xp div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333
+}
+
+.trade {
+    position: relative;
+    background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+    padding: 70px 100px;
+    display: grid;
+    place-items: center;
+}
+
+.trade-card {
+    background-color: #fff;
+    padding: 100px 200px;
+    border-radius: 30px;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.trade-card h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.trade-card div{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.card img{
+    height: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid #FD749B;
+    border-radius: 15px;
+    padding: 40px 100px;
+    z-index: 1;
+}
+.card p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+    text-align: center;  
+}
+
+.custom-shape-divider-bottom-1656146229 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0;
+}
+
+.custom-shape-divider-bottom-1656146229 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 404px;
+}
+
+.custom-shape-divider-bottom-1656146229 .shape-fill {
+    fill: #FFFFFF;
+}
