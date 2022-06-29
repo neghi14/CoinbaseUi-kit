@@ -1,0 +1,133 @@
+.breadcrumb,
+.breadcrumb a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+    position: relative;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 140px 200px;
+    gap: 150px !important;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 512px;
+    margin: 0 auto;
+}
+
+.quote h2 {
+    font-size: 18px !important;
+}
+
+.about {
+    margin: 60px 220px;
+    border-radius: 30px;
+    border: 1px solid #FD749B;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 35px 260px;
+}
+
+.team-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 160px;
+    text-align: center;
+    position: relative;
+}
+
+.team {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ceo{
+    width: 299px;
+    height: 285px;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    filter: drop-shadow(0px 50px 100px rgba(0, 0, 0, 0.1));
+    background: rgb(204, 88, 121);
+}
+.two{
+    position: absolute;
+    width: 299px;
+    height: 233px;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    filter: drop-shadow(0px 50px 100px rgba(0, 0, 0, 0.1));
+    margin-left: 400px;
+    z-index: -2;
+}
+.one{
+    position: absolute;
+    width: 299px;
+    height: 185px;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    filter: drop-shadow(0px 50px 100px rgba(0, 0, 0, 0.1)); 
+    margin-left: 800px;
+    z-index: -3;
+}
+.four{
+    position: absolute;
+    width: 299px;
+    height: 233px;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    filter: drop-shadow(0px 50px 100px rgba(0, 0, 0, 0.1));
+    margin-right: 400px;
+    z-index: -2; 
+}
+.three{
+    position: absolute;
+    width: 299px;
+    height: 185px;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    filter: drop-shadow(0px 50px 100px rgba(0, 0, 0, 0.1)); 
+    margin-right: 800px;
+    z-index: -3;
+}
